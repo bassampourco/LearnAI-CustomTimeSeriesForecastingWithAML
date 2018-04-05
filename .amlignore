@@ -1,9 +1,0 @@
-.azuremlhistory_git
-.ipynb_checkpoints
-azureml-logs
-*.dprep.user
-.azureml
-.git
-outputs
-azureml-setup
-docs
