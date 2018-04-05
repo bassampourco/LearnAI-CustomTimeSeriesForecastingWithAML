@@ -1,0 +1,31 @@
+################################################################################
+#
+# This file is used to create the conda environment to use the Azure ML Forecasting Toolkit on Windows.
+# Targets AML Workbench Version 0.1.1712.18263.
+#
+################################################################################
+
+name: azuremlftk_mar2018
+dependencies:
+  # The python interpreter version.
+  # Currently Azure ML Workbench only supports 3.5.2.
+  - python=3.5.2
+
+  # Required for Jupyter Notebooks.
+  - ipykernel>=4.8
+  
+  # AzureML FTK dependencies
+  - statsmodels
+  - pandas==0.20.3
+  - scikit-learn>=0.19.1
+  - joblib
+  
+  - pip:
+    - pythonnet
+
+    # Common toolkit.  This is currently a hand-built version of the tkbase package because the original version
+    # introduced spurious dependencies. This is being fixed on the common package
+    - https://azuremlftkrelease.blob.core.windows.net/dailyreleasebase/azuremltkbase-1.0.0b1-py3-none-any.whl
+
+    # Forecast Toolkit
+    - https://azuremlftkrelease.blob.core.windows.net/dailyrelease/azuremlftk-0.1.18074.17a1-py3-none-any.whl
