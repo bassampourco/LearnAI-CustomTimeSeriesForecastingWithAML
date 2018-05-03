@@ -33,3 +33,7 @@ Please note: This is a rough agenda, and the schedule is subject to change pendi
   -  2:00 -  3:00 : Training and testing time series models
   -  3:00 -  4:00 : Model deployment
   -  4:00 -  5:00 : Q&A and Feedback
+
+# Running the Notebook
+
+In order to run the Notebook, follow the installation steps [outlined here](https://review.docs.microsoft.com/en-us/python/api/overview/azure-machine-learning/forecasting-overview?view=azure-python#prerequisites).
