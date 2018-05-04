@@ -1,5 +1,5 @@
-title: Learn AI - Time Series Forecasting using AML Forecasting Toolkit
-description: Microsoft labs for developing a Time Series forecasting solution using AML Forecasting Toolkit.
+title: Learn AI - Building Custom Time Series Forecasting Solutions using AML
+description: Microsoft labs for Building Custom Time Series Forecasting Solutions using Azure Machine Learning.
 show_downloads: true
 theme: jekyll-theme-cayman
-repository: Azure/LearnAI-CustomTimeSeriesForecastingWithAM
+repository: Azure/LearnAI-CustomTimeSeriesForecastingWithAML
